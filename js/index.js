@@ -14,6 +14,10 @@
     toMain()
   })
 
+  backgroundLogo.addEventListener('touchstart', event => {
+    toMain()
+  })
+
   // ...or, go to main by accessing url with hash
   if (location.hash !== '') {
     toMain()
